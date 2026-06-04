@@ -74,14 +74,26 @@ Captured tiles are counted after each successful area close. If the count exceed
 | **Activate Power-Up** | <kbd>P</kbd> | <kbd>O</kbd> |
 | **Pause Menu** | <kbd>Escape</kbd> | — |
 
-## ⚙️ Build & Run
+## ⚙️ Build & Run (Linux & Ubuntu Setup)
 
-Requires SFML installed on your system.
+This project uses CMake configuration for reliable linking. Follow these simple steps in your terminal to build and run the game:
 
+###  ✅ Install Dependencies, then compile and run
 ```bash
-# Compile
-g++ main.cpp -o XonixGame -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+# Update packages and install compiler essentials + SFML development kits
+sudo apt update
+sudo apt install cmake build-essential libsfml-dev
 
-# Run
+### - Compile & Execute via CMake
+
+1️⃣ Generate and enter the build directory:
+mkdir build
+cd build
+
+2️⃣ Configure the project configurations and compile the files:
+ cmake ..
+ make
+
+3️⃣ Execute the generated game engine binary directly from your terminal:
 ./XonixGame
 
