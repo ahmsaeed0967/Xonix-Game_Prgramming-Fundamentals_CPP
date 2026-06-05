@@ -66,6 +66,19 @@ Captured tiles are counted after each successful area close. If the count exceed
 
 ## 📂 Project Structure
 
+```text
+XonixGame/
+├── main.cpp                # Full game logic and rendering loop
+├── images/
+│   ├── tiles.png           # Wall, trail, and player sprites
+│   ├── enemy.png           # Enemy sprite
+│   └── gameover.png        # Game over overlay
+├── LemonMilk.otf           # Game font
+├── playermoved.wav         # Sound: player movement
+├── completedmove.wav       # Sound: area captured
+├── gameover.wav            # Sound: game over
+└── scoreboard.txt          # Auto-generated: persisted top 5 scores
+```
 ## 🎮 Game Controls
 
 | Action | Player 1 (🕹️ Solo / Left) | Player 2 (🕹️ Co-Op / Right) |
