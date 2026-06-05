@@ -109,4 +109,20 @@ cd build
 
 3️⃣ Execute the generated game engine binary directly from your terminal:
 ./XonixGame
+```
+## 📌 Context 
+
+> 🏫 **Institutional Framework:** This repository features a semester project developed for the **Programming Fundamentals (PF)** course at **FAST NUCES, Islamabad Campus**.
+
+---
+
+### 📐 1. What Was Provided (The Boilerplate Skeleton)
+To ensure equal footing, the university provided us with a basic architectural starter kit that included:
+- **The Core Grid:** A raw `25 × 40` structured integer matrix managing fundamental pixel coordinate bounds.
+- **The Engine Loop:** A lightweight, non-modular game loop rendering minimal SFML window bindings.
+- **Elementary Physics:** A basic, single-mode linear bouncing vector for standard coordinate boundary collision.
+
+---
+
+
 
